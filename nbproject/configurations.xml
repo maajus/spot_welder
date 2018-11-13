@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="arduino"
+                   displayName="arduino"
+                   projectFiles="true"
+                   root="/usr/share/arduino/hardware/arduino/avr/cores/arduino">
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Arduino.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HID.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/IPAddress.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Print.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Print.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Printable.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Stream.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/USBAPI.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/WCharacter.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/WString.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/WString.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/abi.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/binary.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/hooks.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/main.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/new.cpp</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_private.h</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c</itemPath>
+      <itemPath>/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c</itemPath>
+    </logicalFolder>
+    <df root="." name="0">
+      <df name="src">
+        <in>main.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-Os -fno-rtti -fno-exceptions"/>
+        <element flagsID="1" commonFlags="-g -Os"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>ano build -m atmegang</buildCommand>
+          <cleanCommand>ano clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HID.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/Print.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/WString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include/avr</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/abi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/hooks.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/new.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/usr/share/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/cores/arduino</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include/util</pElem>
+            <pElem>/usr/share/arduino/hardware/tools/avr/avr/include</pElem>
+            <pElem>/usr/share/arduino/hardware/arduino/avr/variants/standard</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

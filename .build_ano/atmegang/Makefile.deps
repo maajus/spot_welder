@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+.build_ano/atmegang/EEPROM/dependencies.d : 
+	@echo Scanning dependencies of EEPROM
+	@mkdir -p .build_ano/atmegang/EEPROM
+	@touch $@;
+
+all : .build_ano/atmegang/EEPROM/dependencies.d
+	@true
+
